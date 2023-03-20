@@ -25,24 +25,15 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding-right: 105px;
+    padding-right: 125px;
 }
 
 .navItems li {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
     font-size: 17px;
     font-weight: bold;
     font-style: italic;
-}
-
-.navItems a {
-    text-decoration: none;
-}
-
-.navItems a:visited {
-    text-decoration: none;
-    color: inherit;
 }
 
 
@@ -54,4 +45,8 @@
     color: white;
     font-weight: bold;
     border: 0px;
+}
+
+#contactBtn:hover {
+    cursor: pointer;
 }

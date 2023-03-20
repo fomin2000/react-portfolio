@@ -1,11 +1,10 @@
-.navItems {
+#footerItems {
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding-right: 105px;
 }
 
-.navItems li {
+#footerItems li {
     margin-left: 25px;
     margin-right: 25px;
     font-size: 17px;
@@ -26,6 +25,6 @@
     justify-content: center;
 }
 
-.navItems img {
+#footerItems img {
     margin: 10px 30px;
 }

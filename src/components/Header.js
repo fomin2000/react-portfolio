@@ -1,23 +1,24 @@
+import { Link } from "react-router-dom"
 import "./Header.css"
+import Nav from "./Nav"
 
 
 const Header = () => {
+
 
     return (
         <div className="header">
             <nav className="navbar">
                 <div>
-                    <h2 id="navTitle"><a href="/">Paul Fomin</a></h2>
+                    <Link to="/" style={{ textDecoration: 'none' }}>
+                        <h2 id="navTitle">Paul Fomin</h2>
+                    </Link>
                 </div>
+                <Nav />
                 <div>
-                    <ul className="navItems">
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/portfolio">Portfolio</a></li>
-                        <li><a href="/resume">Resume</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <button id="contactBtn">Contact</button>
+                    <Link to="/contact">
+                        <button id="contactBtn">Contact</button>
+                    </Link>
                 </div>
             </nav>
         </div>
