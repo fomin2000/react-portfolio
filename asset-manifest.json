@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fomin2000.github.io/react-portfolio/static/css/main.6b7aa0e1.css",
+    "main.js": "/fomin2000.github.io/react-portfolio/static/js/main.05613803.js",
+    "static/media/Screen Shot 2023-03-20 at 12.56.21 PM.png": "/fomin2000.github.io/react-portfolio/static/media/Screen Shot 2023-03-20 at 12.56.21 PM.89d59afadb5b8cfc3b43.png",
+    "static/media/Screen Shot 2023-03-20 at 12.56.36 PM.png": "/fomin2000.github.io/react-portfolio/static/media/Screen Shot 2023-03-20 at 12.56.36 PM.b12705c184d46996d366.png",
+    "index.html": "/fomin2000.github.io/react-portfolio/index.html",
+    "main.6b7aa0e1.css.map": "/fomin2000.github.io/react-portfolio/static/css/main.6b7aa0e1.css.map",
+    "main.05613803.js.map": "/fomin2000.github.io/react-portfolio/static/js/main.05613803.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b7aa0e1.css",
+    "static/js/main.05613803.js"
+  ]
+}
