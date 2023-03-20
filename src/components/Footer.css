@@ -1,0 +1,31 @@
+.navItems {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 105px;
+}
+
+.navItems li {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.footerCont {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.navItems img {
+    margin: 10px 30px;
+}

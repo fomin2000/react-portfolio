@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#navTitle {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0b79c9, #e202de);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.navItems {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 105px;
+}
+
+.navItems li {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navItems a {
+    text-decoration: none;
+}
+
+.navItems a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#contactBtn {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: linear-gradient(0.25turn, #0b79c9, #e202de);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
