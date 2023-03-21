@@ -1,13 +1,13 @@
+import ContactForm from "../components/ContactForm";
 
 
 
 
 const Contact = () => {
 
-    return (
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '800px' }}>
-            <h1>Contact Form</h1>
-            <p>Coming Soon!</p>
+    return ( 
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '600px' }}>
+            <ContactForm />
         </div>
     )
 }

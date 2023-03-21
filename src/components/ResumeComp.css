@@ -6,6 +6,7 @@
     margin-bottom: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -13,7 +14,7 @@
 }
 
 .imgCont {
-    width: 100%;
+    width: 50%;
     height: 90%;
 }
 

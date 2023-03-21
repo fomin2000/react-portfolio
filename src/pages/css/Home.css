@@ -1,0 +1,13 @@
+#moreBtn {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px; 
+    background: linear-gradient(0.25turn, #0b79c9, #e202de); 
+    color: white; 
+    font-weight: bold; 
+    border: 0px
+}
+
+#moreBtn:hover {
+    cursor: pointer;
+}

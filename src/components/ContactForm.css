@@ -1,0 +1,17 @@
+.formCont {
+    margin-top: 100px;
+    width: 40%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.formCont h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    background: linear-gradient(to right, #0b79c9, #e202de);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
