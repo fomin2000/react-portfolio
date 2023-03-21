@@ -1,10 +1,11 @@
 .formCont {
     margin-top: 100px;
     width: 40%;
-    height: 250px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.9);
     border: 2px solid black;
     border-radius: 15px;
+    padding: 30px;
 }
 
 .formCont h3 {
@@ -14,4 +15,15 @@
     background: linear-gradient(to right, #0b79c9, #e202de);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+.formCont ul {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.formCont a {
+    text-decoration: none;
+    color: inherit;
 }
