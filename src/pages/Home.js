@@ -8,7 +8,7 @@ const Home = () => {
     let navigate = useNavigate()
     
     const clickHandler = () => {
-        let path = `/about`; 
+        let path = `about`; 
         navigate(path);
     }
 

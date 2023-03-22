@@ -4,13 +4,13 @@ const Nav = () => {
     return (
         <div>
             <ul className="navItems">
-                <Link to="/about" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="react-portfolio/about" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <li>About</li>
                 </Link>
-                <Link to="/portfolio" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="react-portfolio/portfolio" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <li>Portfolio</li>
                 </Link>
-                <Link to="/resume" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="react-portfolio/resume" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <li>Resume</li>
                 </Link>
             </ul>

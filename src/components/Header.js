@@ -10,13 +10,13 @@ const Header = () => {
         <div className="header">
             <nav className="navbar">
                 <div>
-                    <Link to="/" style={{ textDecoration: 'none' }}>
+                    <Link to="react-portfolio/" style={{ textDecoration: 'none' }}>
                         <h2 id="navTitle">Paul Fomin</h2>
                     </Link>
                 </div>
                 <Nav />
                 <div>
-                    <Link to="/contact">
+                    <Link to="react-portfolio/contact">
                         <button id="contactBtn">Contact</button>
                     </Link>
                 </div>
