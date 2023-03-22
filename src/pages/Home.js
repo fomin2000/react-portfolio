@@ -13,7 +13,7 @@ const Home = () => {
     }
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'row', height: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', height: '90vh' }}>
             <div>
                 <img src={MyImage} alt="myphoto" height="650px" width="500px"/>
             </div>

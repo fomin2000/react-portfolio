@@ -10,9 +10,9 @@ const Footer = () => {
             <footer className="footer">
                 <div>
                     <ul id="footerItems">
-                        <a href="https://github.com/fomin2000/" target="_blank"><img src={GitHub} alt="github" height="60px" width="60px"></img></a>
-                        <a href="https://www.instagram.com/fominpasha___/" target="_blank"><img src={Instagram} alt="instagram" height="60px" width="60px"></img></a>
-                        <a href="https://www.linkedin.com/in/paul-fomin-233233236/" target="_blank"><img src={LinkedIn} alt="linkedin" height="60px" width="60px"></img></a>
+                        <a href="https://github.com/fomin2000/"><img src={GitHub} alt="github" height="60px" width="60px"></img></a>
+                        <a href="https://www.instagram.com/fominpasha___/"><img src={Instagram} alt="instagram" height="60px" width="60px"></img></a>
+                        <a href="https://www.linkedin.com/in/paul-fomin-233233236/"><img src={LinkedIn} alt="linkedin" height="60px" width="60px"></img></a>
                     </ul>
                 </div>
             </footer>
