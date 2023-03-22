@@ -29,3 +29,19 @@
 #footerItems img {
     margin: 10px 30px;
 }
+
+@media only screen and (max-width: 480px) {
+    /* Styles for older mobile devices */
+    .footerCont {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+
+    #footerItems img {
+        margin: 10px 10px;
+    }
+  }

@@ -50,3 +50,52 @@
 #contactBtn:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+    /* Add your styles here */
+    body {
+      font-size: 14px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navItems {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding-right: 0px;
+    }
+    
+    .navItems li {
+        font-size: 8px;
+        font-weight: bold;
+        font-style: italic;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #navTitle {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #0b79c9, #e202de);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    #contactBtn {
+        font-size: 12px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background: linear-gradient(0.25turn, #0b79c9, #e202de);
+        color: white;
+        font-weight: bold;
+        border: 0px;
+    }
+  }

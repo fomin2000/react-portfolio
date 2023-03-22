@@ -11,3 +11,59 @@
 #moreBtn:hover {
     cursor: pointer;
 }
+
+#homeCont {
+    display: flex; 
+    flex-direction: row; 
+    height: 90vh;
+}
+
+#textAndBtnCont {
+    width: 45%; 
+    height: 270px;
+    margin-top: 70px; 
+    margin-left: 50px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    background: lightgray; 
+    border: 2px solid grey; 
+    border-radius: 20px; 
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for older mobile devices */
+    #textAndBtnCont {
+        width: 150px; 
+        height: 120px;
+        margin-top: 0px; 
+        margin-left: 0px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 8px;
+        background: lightgray; 
+        border: 2px solid grey; 
+        border-radius: 20px; 
+    }
+
+    #myImage {
+        height: 250px;
+        width: 200px;
+    }
+
+    #moreBtn {
+        font-size: 10px;
+        padding: 5px 15px;
+        border-radius: 5px; 
+        background: linear-gradient(0.25turn, #0b79c9, #e202de); 
+        color: white; 
+        font-weight: bold; 
+        border: 0px
+    }
+
+    #homeCont {
+        display: flex; 
+        flex-direction: row; 
+        height: 250px;
+        margin-top: 80px;
+    }
+
+  }

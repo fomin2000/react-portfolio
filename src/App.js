@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="container min-100-vh">
+        <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -27,3 +27,23 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media only screen and (max-width: 480px) {
+    /* Styles for older mobile devices */
+    .formCont {
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .formCont ul {
+        list-style: none;
+        color: white;
+        font-weight: bold;
+        padding-right: 35px;
+    }
+  }

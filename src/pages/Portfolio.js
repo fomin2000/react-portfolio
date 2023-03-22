@@ -17,7 +17,7 @@ const Portfolio = () => {
           deployed: "https://luxurymotor-rentals.herokuapp.com/"
         },
         {
-          title: "MARMETMATE",
+          title: "MARKETMATE",
           description: "BUYING/SELLING ONLINE PRODUCTS",
           github: "https://github.com/fomin2000/MarketMate",
           deployed: "https://murmuring-garden-13552.herokuapp.com/"

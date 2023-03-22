@@ -31,3 +31,31 @@
 .dwnBtn:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 480px) {
+    /* Styles for older mobile devices */
+    .resumeCont {
+        width: 80%;
+        height: 95%;
+        background-color: gray;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dwnBtn {
+        margin-top: 25px;
+        font-size: 12px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background: linear-gradient(0.25turn, #0b79c9, #e202de);
+        color: white;
+        font-weight: bold;
+        border: 0px;
+    }
+  }

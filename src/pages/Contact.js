@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import "./css/Contact.css"
 
 
 
@@ -6,7 +7,7 @@ import ContactForm from "../components/ContactForm";
 const Contact = () => {
 
     return ( 
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '600px' }}>
+        <div id="contactContainer">
             <ContactForm />
         </div>
     )

@@ -1,10 +1,10 @@
 import ResumeComp from "../components/ResumeComp";
-
+import "./css/Resume.css"
 
 
 const Resume = () => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '800px' }}>
+        <div id="resumeContainer">
             <ResumeComp />
         </div>
     )

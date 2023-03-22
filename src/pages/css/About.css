@@ -1,0 +1,15 @@
+#aboutCont {
+    display: flex; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for older mobile devices */
+
+    #aboutCont {
+        display: flex; 
+        justify-content: center; 
+        height: 740px;
+    }
+  }

@@ -6,7 +6,7 @@ const Project = (props) => {
             <div class="container">
                 <div class="wrapper">
                     <div class="banner-image">
-                        <img src={props.img} alt={props.title} height="300px" width="100%"/>
+                        <img id="projImage" src={props.img} alt={props.title} height="300px" width="100%"/>
                     </div>
                     <h1>{props.title}</h1>
                     <p>{props.description}</p>

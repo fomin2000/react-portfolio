@@ -1,10 +1,10 @@
 import Table from "../components/Table";
-
+import "./css/About.css"
 
 
 const About = () => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '100vh' }}>
+        <div id="aboutCont">
             <Table />
         </div>
     )
