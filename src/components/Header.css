@@ -51,7 +51,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
     /* Add your styles here */
     body {
       font-size: 14px;
