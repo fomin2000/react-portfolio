@@ -1,11 +1,11 @@
+import Table from "../components/Table";
 
 
 
 const About = () => {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '800px' }}>
-            <h1>About</h1>
-            <p>Coming Soon!</p>
+        <div style={{ display: 'flex', justifyContent: 'center', height: '100vh' }}>
+            <Table />
         </div>
     )
 }
