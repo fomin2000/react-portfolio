@@ -20,11 +20,11 @@ function App() {
         <Header />
         <div className="container min-100-vh">
           <Routes>
-            <Route path="react-portfolio/" element={<Home />} />
-            <Route path="react-portfolio/about" element={<About />} />
-            <Route path="react-portfolio/contact" element={<Contact />} />
-            <Route path="react-portfolio/portfolio" element={<Portfolio />} />
-            <Route path="react-portfolio/resume" element={<Resume />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
