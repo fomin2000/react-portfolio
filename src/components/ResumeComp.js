@@ -1,5 +1,5 @@
 import "./ResumeComp.css"
-import Resume1 from "../images/IntResume.png"
+import Resume1 from "../images/newResume.png"
 
 
 const ResumeComp = () => {
